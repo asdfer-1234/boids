@@ -81,7 +81,7 @@ public class Boid : MonoBehaviour
 			total += (relativePosition - relativePosition.normalized * range);
 		}
 
-		velocity += (total / nearbyObstacles.Length).normalized * spreadStrength;
+		velocity += (total / nearbyObstacles.Length).normalized * obstacleStrength;
 	}
 
 	private Boid[] GetNearbyBoids(float range){

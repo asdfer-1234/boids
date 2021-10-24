@@ -163,8 +163,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AssetsPPU: 8
-  m_RefResolutionX: 160
-  m_RefResolutionY: 120
+  m_RefResolutionX: 240
+  m_RefResolutionY: 240
   m_UpscaleRT: 1
   m_PixelSnapping: 0
   m_CropFrameX: 0
@@ -295,7 +295,6 @@ GameObject:
   - component: {fileID: 655625313}
   - component: {fileID: 655625312}
   - component: {fileID: 655625314}
-  - component: {fileID: 655625315}
   m_Layer: 0
   m_Name: BoidController
   m_TagString: Untagged
@@ -345,21 +344,9 @@ MonoBehaviour:
   range: 5
   count: 100
   velocity: 0.5
---- !u!114 &655625315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 655625311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29f1f351caee12240b4c67b7521ec347, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 20
-  count: 180
+  obstacleRadius: 15
   obstacle: {fileID: 3029399043569960169, guid: 267f8f8d8f30ee44da13f74d51d37420, type: 3}
+  obstacleCount: 180
 --- !u!1001 &1312813751
 PrefabInstance:
   m_ObjectHideFlags: 0
